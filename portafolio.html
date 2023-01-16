@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -17,7 +15,7 @@
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Mateo Radicci</title>
+    <title>Document</title>
 </head>
 
 <body>
@@ -25,51 +23,41 @@
     <nav class="bg-warning-subtle fixed-top">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#personal" style="color: #000; font-size: 15px; font-weight: 400;">Sobre mi</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                    style="color: #000; font-size: 15px; font-weight: 400;">Sobre mi</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="aprendizaje.html" style="color: #000; font-size: 15px; font-weight: 400;">Conocimientos</a>
+                <a class="nav-link" href="aprendizaje.html"
+                    style="color: #000; font-size: 15px; font-weight: 400;">Conocimientos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="portafolio.html" style="color: #000; font-size: 15px; font-weight: 400;">Portafolio</a>
+                <a class="nav-link" href="#portafolio"
+                    style="color: #000; font-size: 15px; font-weight: 400;">Portafolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#contacto" style="color: #000; font-size: 15px; font-weight: 400;">Contacto</a>
+                <a class="nav-link" href="#contacto"
+                    style="color: #000; font-size: 15px; font-weight: 400;">Contacto</a>
             </li>
         </ul>
     </nav>
 
-    <div style="width: 90%; margin: 30px auto;" data-bs-spy="scroll" data-bs-target="#navbar-example2"
+    <div style="width: 90%; margin: 50px auto;" data-bs-spy="scroll" data-bs-target="#navbar-example2"
         data-bs-smooth-scroll="true" class="p-3 rounded-2" tabindex="0">
-        <section>
-            <h1 class="text-center display-4 my-4" id="personal">Sobre mi</h1>
-            <hr>
-            <article>
-                <div class="card mb-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded m-auto">
-                    <div class=" row g-0">
-                        <div class="col-md-4">
-                            <img src="images/mateo cv.jpg" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Mateo Radicci</h5>
-                                <p class="card-text" style="font-size: 20px; font-family: sans-serif;">Tengo 21 años y hace 2 años encontré pasión por la programación,
-                                    busco
-                                    potenciar mi perfil profesional en este ambiente
-                                    dando siempre lo mejor de mi, soy una persona que le gusta e interesa aprender.
-                                    Actualmente
-                                    me dedico
-                                    a estudiar de manera autodidacta para convertirme en un fullstack developer y
-                                    conseguir mi
-                                    primer empleo IT.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </section>
 
+        <section>
+            <h1 class="text-center display-4 my-4" id="portafolio">Portafolio</h1>
+            <div class="card" style="width: 18rem;">
+                <img src="images/crud.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CRUD con Django</h5>
+                    <p class="card-text">En este proyecto podrás experimentar las funcionalidades básicas que se pueden
+                        hacer
+                        con una tabla contenida de datos, además de poder realizar búsquedas de algún registro,
+                        descargar archivos PDF, etc.</p>
+                    <a class="btn btn-primary">Ver proyecto</a>
+                </div>
+            </div>
+        </section>
     </div>
 
     <footer class="bg-warning-subtle text-emphasis-warning" style="height: 300px;">
@@ -92,12 +80,6 @@
         </div>
         <h6 style="text-align: right; margin: 20px 20px 0 0;">&copy; Mateo Radicci</h6>
     </footer>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
