@@ -19,24 +19,23 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-warning-subtle justify-content-center sticky-top">
+
+    <nav class="navbar navbar-expand-lg mt-0 bg-warning-subtle">
         <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarNav" style="position: sticky;">
+                <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#personal"
-                    style="color: #000;  font-weight: 400;">Sobre mi</a>
+                        <a class="nav-link" aria-current="page" href="#personal" style="color: #000;  font-weight: 400;">Sobre mi</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#aprendizaje" style="color: #000;  font-weight: 400;">Conocimientos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portafolio" style="color: #000;  font-weight: 400;">Portafolio</a>
+                        <a class="nav-link" href="#proyectos" style="color: #000;  font-weight: 400;">Proyectos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contacto" style="color: #000;  font-weight: 400;">Contacto</a>
@@ -46,7 +45,7 @@
         </div>
     </nav>
 
-    <div style="width: 90%; margin: 30px auto;" data-bs-spy="scroll" data-bs-target="#navbar-example2"
+    <div style="width: 90%; margin:auto;" data-bs-spy="scroll" data-bs-target="#navbar-example2"
         data-bs-smooth-scroll="true" class="p-3 rounded-2" tabindex="0">
         <section id="personal">
             <h1 class="text-center display-4 my-4">Sobre mi</h1>
@@ -164,20 +163,35 @@
             </div>
         </section>
 
-        <section id="portafolio">
-            <h1 class="text-center display-4 my-4">Portafolio</h1>
+        <section id="proyectos">
+            <h1 class="text-center display-4 my-4">Proyectos</h1>
             <hr>
-            <div class="card" style="width: 18rem;">
-                <img src="images/crud.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">CRUD con Django</h5>
-                    <p class="card-text">En este proyecto podrás experimentar las funcionalidades básicas que se pueden
-                        hacer
-                        con una tabla contenida de datos, además de poder realizar búsquedas de algún registro,
-                        descargar archivos PDF, etc.</p>
-                    <a href="#" class="btn btn-primary">Ver proyecto</a>
+            
+            <div class="card-group" >
+                <div class="card">
+                    <img src="images/crud.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CRUD con Django</h5>
+                        <p class="card-text">En este proyecto podrás experimentar las funcionalidades básicas que se pueden
+                            hacer
+                            con una tabla contenida de datos, además de poder realizar búsquedas de algún registro,
+                            descargar archivos PDF, etc.</p>
+                        <a href="https://github.com/radiccimateoo/CRUD-Django" target="_blank" class="btn btn-primary">Ver proyecto</a>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="images/community.jpg" class="card-img-top" alt="..." height="150px" style="object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Web community manager</h5>
+                        <p class="card-text">Este proyecto es una web estática para presentar el perfil profesional de una community manager,
+                            mostrando sus trabajos y ofreciendo sus servicios para futuros clientes.
+                        </p>
+                        <a href="https://camilliecm.000webhostapp.com" target="_blank" class="btn btn-primary">Ver proyecto (En proceso)</a>
+                    </div>
                 </div>
             </div>
+
         </section>
     </div>
 
